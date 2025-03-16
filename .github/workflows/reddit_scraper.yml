@@ -79,7 +79,7 @@ jobs:
 
     # Process Reddit data
     - name: Run Reddit Stash Script
-      timeout-minutes: 60
+      timeout-minutes: 100
       env:
         REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
         REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
